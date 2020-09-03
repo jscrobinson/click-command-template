@@ -1,4 +1,4 @@
-from k8s.commands.command import BaseCommand
+from click_command.commands.command import BaseCommand
 
 class Command(BaseCommand):
     pass
