@@ -25,7 +25,7 @@ class BaseCommand():
         self.cli.echo(self.cli.style(message, fg='green'))
 
     def debug(self, message):
-        if self.debug:
+        if self._debug:
             self.cli.echo(self.cli.style(message, fg='green'))
 
 
